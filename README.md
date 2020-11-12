@@ -1,1 +1,1 @@
-# rpoD_amplicons
+# PseudomonasRPOD
