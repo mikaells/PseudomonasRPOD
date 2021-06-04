@@ -1,0 +1,41 @@
+Read1 before filtering:
+total reads: 16488
+total bases: 4445138
+Q20 bases: 3853725(86.6953%)
+Q30 bases: 3222813(72.502%)
+
+Read2 before filtering:
+total reads: 16488
+total bases: 4458471
+Q20 bases: 3862856(86.6408%)
+Q30 bases: 3252100(72.942%)
+
+Read1 after filtering:
+total reads: 15688
+total bases: 4224865
+Q20 bases: 3711745(87.8548%)
+Q30 bases: 3129076(74.0633%)
+
+Read2 aftering filtering:
+total reads: 15688
+total bases: 4237814
+Q20 bases: 3731767(88.0588%)
+Q30 bases: 3168395(74.7648%)
+
+Filtering result:
+reads passed filter: 31376
+reads failed due to low quality: 1600
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate: 9.32039%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i pmix_in//BION.Pmix_rep1_R1_.fastq -I pmix_in//BION.Pmix_rep1_R2_.fastq -o out/clean/BION.Pmix_rep1_R1_.clean -O out/clean/BION.Pmix_rep1_R2_.clean 
+fastp v0.20.1, time used: 1 seconds
