@@ -1,1 +1,4 @@
 Scripts and such for profiling primers
+
+Run with RunAllAmps.sh -i path-to-genomes -p path-to-primerfile
+
