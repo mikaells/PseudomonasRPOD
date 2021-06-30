@@ -38,8 +38,3 @@ Test by
 
 The out/ -folder will now contain some temporary files, and importantly, the tables/ folder, in which a long table of how many reads mapped to each species for each fastq-pair.
 Both the unfiltered tables, and only pairs mapped at bowtie quality above 10 is provided.
-
-
-
-
-
