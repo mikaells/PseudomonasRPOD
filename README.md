@@ -13,8 +13,8 @@ can be used to generate rpoD-amplicons, which then can be processed by this pipe
     git clone https://github.com/mikaells/PseudomonasRPOD
 
     conda create --name rpoD
-    conda install -c bioconda samtools bowtie2 parallel fastp
     conda activate rpoD
+    conda install -c bioconda samtools bowtie2 parallel fastp
 
 If you get a bowtie error about libtbb when running
 
