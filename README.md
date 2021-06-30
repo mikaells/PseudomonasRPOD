@@ -10,10 +10,11 @@ can be used to generate rpoD-amplicons, which then can be processed by this pipe
 
 ## Installation
 
-git clone https://github.com/mikaells/PseudomonasRPOD
+    git clone https://github.com/mikaells/PseudomonasRPOD
 
-conda create --name rpoD
-conda install -c bioconda samtools bowtie2 parallel fastp
+    conda create --name rpoD
+    conda install -c bioconda samtools bowtie2 parallel fastp
+    conda activate rpoD
 
 If you get a bowtie error about libtbb when running
 
