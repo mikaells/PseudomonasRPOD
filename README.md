@@ -30,12 +30,14 @@ then do
 The program bowtier.sh takes an input folder (-i) containing demultiplexed paired end files, an output folder (-o) and a database (-d) 
 
 Test by
+
     #enter folder
     cd PseudomonasRPOD
     #run the files in pmix_in using the database in db/rpoD_amp and output in out/
     ./bowtier.sh -i pmix_in/ -o out -d db/rpoD_amp
 
-The out/ -folder will now contain some temporary files, and importantly, the tables/ folder, in which a long table of how many reads mapped to each species.
+The out/ -folder will now contain some temporary files, and importantly, the tables/ folder, in which a long table of how many reads mapped to each species for each fastq-pair.
+Both the unfiltered tables, and only pairs mapped at bowtie quality above 10 is provided.
 
 
 
