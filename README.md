@@ -1,3 +1,5 @@
+See details in our mSystems paper: https://journals.asm.org/doi/full/10.1128/mSystems.00704-21 
+
 # PseudomonasRPOD
 
 Psuedomonas species cannot be distuinguised using 16S gene amplicon sequencing. Instead the rpoD primers 
